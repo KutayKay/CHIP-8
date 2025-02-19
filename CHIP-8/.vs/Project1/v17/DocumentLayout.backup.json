@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kutay\\Documents\\GitHub\\CHIP-8\\Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4891FB2-312A-422C-A2A1-314AC0C87B09}|Project1\\Project1.vcxproj|C:\\Users\\Kutay\\Documents\\GitHub\\CHIP-8\\Project1\\Project1\\Platform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D4891FB2-312A-422C-A2A1-314AC0C87B09}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Platform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4891FB2-312A-422C-A2A1-314AC0C87B09}|Project1\\Project1.vcxproj|C:\\Users\\Kutay\\Documents\\GitHub\\CHIP-8\\Project1\\Project1\\Chip8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D4891FB2-312A-422C-A2A1-314AC0C87B09}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Chip8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Platform.cpp",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Documents\\GitHub\\CHIP-8\\Project1\\Project1\\Platform.cpp",
+              "RelativeDocumentMoniker": "Project1\\Platform.cpp",
+              "ToolTip": "C:\\Users\\Kutay\\Documents\\GitHub\\CHIP-8\\Project1\\Project1\\Platform.cpp",
+              "RelativeToolTip": "Project1\\Platform.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-19T21:22:43.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Chip8.cpp",
+              "DocumentMoniker": "C:\\Users\\Kutay\\Documents\\GitHub\\CHIP-8\\Project1\\Project1\\Chip8.cpp",
+              "RelativeDocumentMoniker": "Project1\\Chip8.cpp",
+              "ToolTip": "C:\\Users\\Kutay\\Documents\\GitHub\\CHIP-8\\Project1\\Project1\\Chip8.cpp",
+              "RelativeToolTip": "Project1\\Chip8.cpp",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAALcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-19T21:07:40.333Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
