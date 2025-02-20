@@ -1,27 +1,7 @@
 #include "Platform.h"
-#include <SDL3/SDL.h>
-#include <SDL3/SDL_init.h>
-#include <SDl3/SDL_render.h>
-#include <SDL3/SDL_keyboard.h>
-#include <SDL3/SDL_events.h>
-#include <SDL3/SDL_system.h>
-#include <SDL3/SDL_video.h>
-#include <SDL3/SDL_pixels.h>
-#include <SDL3/SDL_rect.h>
-#include <SDL3/SDL_surface.h>
 
 
-
-
-class Platform
-{
-	private:
-		SDL_Window* window;
-		SDL_Renderer* renderer;
-		SDL_Texture* texture;
-		Uint32* pixels;
-	public:
-		Platform(char const* title, int windowWidth, int windowHeight, int textureWidth, int textureHeight)
+Platform::Platform(char const* title, int windowWidth, int windowHeight, int textureWidth, int textureHeight)
 		{
 			SDL_Init(SDL_INIT_VIDEO);
 
@@ -33,7 +13,7 @@ class Platform
 			memset(pixels, 255, textureWidth * textureHeight * sizeof(Uint32));
 		}
 
-		~Platform()
+Platform::~Platform()
 		{
 			SDL_DestroyTexture(texture);
 			SDL_DestroyRenderer(renderer);
@@ -41,7 +21,7 @@ class Platform
 			SDL_Quit();
 		}
 
-		void Update(void const* buffer, int pitch)
+void Platform::Update(void const* buffer, int pitch)
 		{
 			SDL_UpdateTexture(texture, nullptr, buffer, pitch);
 			SDL_RenderClear(renderer);
@@ -49,7 +29,7 @@ class Platform
 			SDL_RenderPresent(renderer);
 		}
 
-		bool ProcessInput(uint8_t* keys)
+bool Platform::ProcessInput(uint8_t* keys)
 		{
 			bool quit = false;
 
@@ -214,4 +194,3 @@ class Platform
 		}
 		return quit;
 	}
-};
