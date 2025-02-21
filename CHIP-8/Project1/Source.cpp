@@ -5,18 +5,28 @@
 
 int main(int argc, char** argv)
 {
+	std::cout << "Program started!" << std::endl;
+
 	if (argc != 4)
 	{
 		std::cerr << "Usage: " << argv[0] << " <Scale> <Delay> <ROM>\n";
+		std::cerr << "Error: Invalid number of arguments!" << std::endl;
+		std::system("Usage");
 		std::exit(EXIT_FAILURE);
 	}
+
+	std::cout << "Arguments received: " << argv[1] << ", " << argv[2] << ", " << argv[3] << std::endl;
 
 	int videoScale = std::stoi(argv[1]);
 	int cycleDelay = std::stoi(argv[2]);
 	char const* romFilename = argv[3];
 
+
+	std::cout << "Trying to load ROM: " << argv[3] << std::endl;
 	Chip8 chip8;
 	chip8.LoadROM(romFilename);
+
+	std::cout << "ROM loaded successfully" << std::endl;
 
 	Platform platform("CHIP-8 Emulator", chip8.VIDEO_WIDTH * videoScale, chip8.VIDEO_HEIGHT * videoScale, chip8.VIDEO_WIDTH, chip8.VIDEO_HEIGHT);
 

@@ -1,17 +1,26 @@
 ﻿  Chip8.cpp
-C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.h(30,23): warning C4244: 'initializing': conversion from 'double' to 'uint16_t', possible loss of data
+C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.h(105,23): warning C4244: 'initializing': conversion from 'double' to 'uint16_t', possible loss of data
   (compiling source file 'Chip8.cpp')
   
-C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.cpp(4,85): warning C4244: 'argument': conversion from '_Rep' to 'unsigned int', possible loss of data
-C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.cpp(4,85): warning C4244:         with
-C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.cpp(4,85): warning C4244:         [
-C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.cpp(4,85): warning C4244:             _Rep=std::chrono::system_clock::rep
-C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.cpp(4,85): warning C4244:         ]
-C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.cpp(470,23): warning C4552: '-': result of expression not used
-C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.cpp(691,13): warning C4552: '-': result of expression not used
+C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.h(16,79): warning C4244: 'argument': conversion from '_Rep' to 'unsigned int', possible loss of data
+C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.h(16,79): warning C4244:         with
+C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.h(16,79): warning C4244:         [
+C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.h(16,79): warning C4244:             _Rep=std::chrono::system_clock::rep
+C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.h(16,79): warning C4244:         ]
+  (compiling source file 'Chip8.cpp')
+  
+C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.cpp(391,23): warning C4552: '-': result of expression not used
+C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.cpp(612,13): warning C4552: '-': result of expression not used
   Platform.cpp
   Source.cpp
-C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.h(30,23): warning C4244: 'initializing': conversion from 'double' to 'uint16_t', possible loss of data
+C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.h(105,23): warning C4244: 'initializing': conversion from 'double' to 'uint16_t', possible loss of data
+  (compiling source file 'Source.cpp')
+  
+C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.h(16,79): warning C4244: 'argument': conversion from '_Rep' to 'unsigned int', possible loss of data
+C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.h(16,79): warning C4244:         with
+C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.h(16,79): warning C4244:         [
+C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.h(16,79): warning C4244:             _Rep=std::chrono::system_clock::rep
+C:\Users\Kutay\Documents\GitHub\CHIP-8\CHIP-8\Project1\Chip8.h(16,79): warning C4244:         ]
   (compiling source file 'Source.cpp')
   
   Generating Code...
